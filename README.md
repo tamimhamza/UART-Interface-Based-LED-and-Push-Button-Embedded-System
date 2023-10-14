@@ -1,1 +1,4 @@
 # UART-Interface-Based-LED-and-Push-Button-Embedded-System
+The aim of this project was to design a circuit that could be controlled with an Arduino uno, through the UART interface, using the serial monitor to display inputs from a push button, to receive specific input commands through the serial monitor to turn on, and turn off a LED, and output an error message if the wrong command is entered.
+The LED is switched on/off by entering into the serial monitor the commands “led_on” and “led_off”, if anything other than these commands are entered, the message “ERROR Incorrect Command Inputted’ will be displayed through UART. Respectfully the messages “LED Is On” and “LED Is Off” will be displayed when the correct command are inputted.
+On the other hand, the push button while pressed down the message “Button Pressed” will be displayed on the serial monitor, and when released the message “Button Not Pressed”.
